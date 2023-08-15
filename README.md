@@ -6,4 +6,4 @@ Certifique-se de que você tenha o Streamlit instalado. Caso não tenha, você p
 
 Para executar o aplicativo, salve o código em um arquivo .py e execute-o no terminal:
 
-```streamlit run projeto_aplicado_XP.py```
+```streamlit run Home.py```
