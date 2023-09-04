@@ -1,0 +1,202 @@
+{
+    "perguntas": [
+      {
+        "pergunta": "O que é um cartão de crédito?",
+        "alternativas": [
+          "Uma maneira de obter dinheiro emprestado gratuitamente",
+          "Um tipo de empréstimo pessoal",
+          "Uma forma de pagamento apenas para compras online",
+          "Um presente dado por bancos aos seus clientes",
+          "Uma conta de poupança"
+        ],
+        "resposta_correta": "Um tipo de empréstimo pessoal"
+      },
+      {
+        "pergunta": "Qual é a diferença entre uma conta poupança e uma conta corrente?",
+        "alternativas": [
+          "Conta corrente oferece juros, conta poupança não",
+          "Conta poupança permite retiradas ilimitadas, conta corrente não",
+          "Conta corrente é usada apenas por empresas, conta poupança é para pessoas físicas",
+          "Conta poupança é usada para pagar contas, conta corrente é para economizar",
+          "Conta corrente é usada para transações diárias, conta poupança é para economizar dinheiro"
+        ],
+        "resposta_correta": "Conta corrente é usada para transações diárias, conta poupança é para economizar dinheiro"
+      },
+      {
+        "pergunta": "O que é um planejamento financeiro pessoal?",
+        "alternativas": [
+          "Uma estratégia para ganhar na loteria",
+          "Um plano para gastar dinheiro sem preocupações",
+          "Um conjunto de metas financeiras a curto prazo",
+          "Um processo de gestão de dinheiro que ajuda a alcançar objetivos financeiros",
+          "Um sistema para evitar pagar impostos"
+        ],
+        "resposta_correta": "Um processo de gestão de dinheiro que ajuda a alcançar objetivos financeiros"
+      },
+      {
+        "pergunta": "Quando se deve começar a investir para a aposentadoria?",
+        "alternativas": [
+          "Aos 65 anos",
+          "Nunca é tarde demais para começar",
+          "Aos 30 anos",
+          "Aos 50 anos",
+          "Aos 18 anos"
+        ],
+        "resposta_correta": "Aos 18 anos"
+      },
+      {
+        "pergunta": "Qual é a melhor maneira de reduzir dívidas de cartão de crédito?",
+        "alternativas": [
+          "Ignorar as faturas",
+          "Fazer empréstimos para pagar a dívida",
+          "Pagar o saldo integral a cada mês",
+          "Pagar apenas o valor mínimo devido",
+          "Aumentar o limite do cartão de crédito"
+        ],
+        "resposta_correta": "Pagar o saldo integral a cada mês"
+      },
+      {
+        "pergunta": "O que é uma taxa de juros?",
+        "alternativas": [
+          "O valor máximo que você pode gastar em um cartão de crédito",
+          "Uma taxa cobrada pelo governo sobre a renda",
+          "O preço do dinheiro emprestado ou o retorno sobre o investimento",
+          "Uma taxa que os bancos pagam aos clientes por manter dinheiro em uma conta poupança",
+          "Um imposto sobre compras online"
+        ],
+        "resposta_correta": "O preço do dinheiro emprestado ou o retorno sobre o investimento"
+      },
+      {
+        "pergunta": "O que é diversificação de investimentos?",
+        "alternativas": [
+          "Colocar todos os seus investimentos em uma única ação",
+          "Investir apenas em ouro e prata",
+          "Espalhar seus investimentos por diferentes tipos de ativos para reduzir o risco",
+          "Investir apenas em imóveis",
+          "Investir apenas em criptomoedas"
+        ],
+        "resposta_correta": "Espalhar seus investimentos por diferentes tipos de ativos para reduzir o risco"
+      },
+      {
+        "pergunta": "O que é um fundo mútuo?",
+        "alternativas": [
+          "Um tipo de empréstimo pessoal",
+          "Uma conta de poupança de alto rendimento",
+          "Um veículo de investimento que reúne dinheiro de muitos investidores para comprar uma variedade de ativos",
+          "Um título emitido pelo governo",
+          "Uma ação em uma única empresa"
+        ],
+        "resposta_correta": "Um veículo de investimento que reúne dinheiro de muitos investidores para comprar uma variedade de ativos"
+      },
+      {
+        "pergunta": "O que é um orçamento de gastos?",
+        "alternativas": [
+          "Uma lista de compras para o mês",
+          "Uma lista de desejos de compras",
+          "Um plano para gastar dinheiro em coisas caras",
+          "Um plano que detalha quanto você planeja gastar em várias categorias de despesas",
+          "Uma planilha de receitas"
+        ],
+        "resposta_correta": "Um plano que detalha quanto você planeja gastar em várias categorias de despesas"
+      },
+      {
+        "pergunta": "O que é uma taxa de câmbio?",
+        "alternativas": [
+          "Uma taxa cobrada pelos bancos para uso de caixas eletrônicos",
+          "Uma taxa cobrada pelo governo sobre a compra de moeda estrangeira",
+          "A taxa que os bancos cobram por transferências internacionais",
+          "O preço relativo de uma moeda em relação a outra moeda",
+          "O preço de compra de ações na bolsa de valores"
+        ],
+        "resposta_correta": "O preço relativo de uma moeda em relação a outra moeda"
+      },
+      {
+        "pergunta": "O que é um dividendo de ações?",
+        "alternativas": [
+          "Uma taxa de juros sobre um empréstimo pessoal",
+          "Uma parte dos lucros de uma empresa distribuída aos acionistas",
+          "Uma comissão cobrada pelo corretor de ações",
+          "Um bônus oferecido aos novos investidores",
+          "Uma multa por vender ações muito rapidamente"
+        ],
+        "resposta_correta": "Uma parte dos lucros de uma empresa distribuída aos acionistas"
+      },
+      {
+        "pergunta": "O que é um CD (Certificado de Depósito)?",
+        "alternativas": [
+          "Um documento de identidade emitido pelo governo",
+          "Um título de dívida emitido por uma empresa",
+          "Uma conta corrente especial para crianças",
+          "Um tipo de investimento de renda fixa com prazo e taxa de juros fixos",
+          "Um documento de propriedade de um carro"
+        ],
+        "resposta_correta": "Um tipo de investimento de renda fixa com prazo e taxa de juros fixos"
+      },
+      {
+        "pergunta": "Qual é a diferença entre uma ação preferencial e uma ação comum?",
+        "alternativas": [
+          "Ações preferenciais têm direito a voto, ações comuns não têm",
+          "Ações preferenciais têm prioridade no pagamento de dividendos e na distribuição de ativos em caso de falência, ações comuns não têm",
+          "Ações preferenciais são mais arriscadas do que ações comuns",
+          "Ações preferenciais são mais baratas do que ações comuns",
+          "Ações preferenciais são emitidas apenas por empresas de tecnologia"
+        ],
+        "resposta_correta": "Ações preferenciais têm prioridade no pagamento de dividendos e na distribuição de ativos em caso de falência, ações comuns não têm"
+      },
+      {
+        "pergunta": "O que é um fundo de índice (ETF)?",
+        "alternativas": [
+          "Um fundo que investe apenas em ações de empresas iniciantes",
+          "Um fundo que investe apenas em ações de empresas de tecnologia",
+          "Um fundo que replica o desempenho de um índice específico, como o S&P 500",
+          "Um fundo que investe apenas em moedas estrangeiras",
+          "Um fundo que investe apenas em imóveis"
+        ],
+        "resposta_correta": "Um fundo que replica o desempenho de um índice específico, como o S&P 500"
+      },
+      {
+        "pergunta": "O que é o mercado de câmbio (Forex)?",
+        "alternativas": [
+          "Um mercado de troca de selos e moedas antigas",
+          "Um mercado de troca de commodities como petróleo e ouro",
+          "Um mercado de troca de ações de empresas estrangeiras",
+          "Um mercado de troca de moedas estrangeiras",
+          "Um mercado de troca de carros usados"
+        ],
+        "resposta_correta": "Um mercado de troca de moedas estrangeiras"
+      },
+      {
+        "pergunta": "O que é uma taxa de corretagem?",
+        "alternativas": [
+          "Uma taxa cobrada pelo governo sobre a venda de imóveis",
+          "Uma taxa cobrada pelos bancos pelo uso de caixas eletrônicos",
+          "Uma taxa cobrada pelos corretores de investimentos para realizar transações de compra e venda de ativos",
+          "Uma taxa cobrada por lojas online para processar pagamentos com cartão de crédito",
+          "Uma taxa de seguro para investimentos"
+        ],
+        "resposta_correta": "Uma taxa cobrada pelos corretores de investimentos para realizar transações de compra e venda de ativos"
+      },
+      {
+        "pergunta": "O que é uma taxa de câmbio fixa?",
+        "alternativas": [
+          "Uma taxa que nunca muda",
+          "Uma taxa que é determinada pelo mercado",
+          "Uma taxa que é ajustada pelo governo regularmente",
+          "Uma taxa que só se aplica a grandes transações comerciais",
+          "Uma taxa que se aplica apenas a moedas estrangeiras"
+        ],
+        "resposta_correta": "Uma taxa que é ajustada pelo governo regularmente"
+      },
+      {
+        "pergunta": "O que é o risco de mercado?",
+        "alternativas": [
+          "O risco de perder dinheiro em uma única ação",
+          "O risco de comprar um carro usado",
+          "O risco de investir em títulos do governo",
+          "O risco de flutuações no valor de investimentos devido a condições de mercado",
+          "O risco de emprestar dinheiro a amigos e familiares"
+        ],
+        "resposta_correta": "O risco de flutuações no valor de investimentos devido a condições de mercado"
+      }
+    ]
+  }
