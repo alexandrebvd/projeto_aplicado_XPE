@@ -197,6 +197,39 @@
           "O risco de emprestar dinheiro a amigos e familiares"
         ],
         "resposta_correta": "O risco de flutuações no valor de investimentos devido a condições de mercado"
+      },
+      {
+        "pergunta": "Dois conceitos básicos da educação financeira são: RECEITAS e DESPESAS. Assinale a alternativa que contém uma receita e uma despesa, respectivamente.",
+        "alternativas": [
+          "Pagar conta de luz, receber salário",
+          "Pagar conta de energia, pagar conta de luz",
+          "Receber salário, receber uma dívida",
+          "Receber aluguel, pagar conta de luz",
+          "Nenhuma das alternativas"
+        ],
+        "resposta_correta": "Receber aluguel, pagar conta de luz"
+      },
+      {
+        "pergunta": "Sobre o conceito de Crédito e algumas de suas opções disponíveis no mercado, é correto dizer:"
+          "alternativas": [
+          "Podemos pegar dinheiro rápido, fácil e sem acréscimos de juros utilizando o cheque especial.",
+          "O cartão de crédito deve ser utilizado de forma consciente e regrada, sempre observando o orçamento pessoal.",
+          "Comprando através dos carnês de pagamento, o cliente paga o mesmo valor que ele pagaria à vista.",
+          "Atrasar o pagamento do cartão de crédito não acarretará em acréscimo no valor da fatura.",
+          "O crédito pessoal deve ser usado sempre que oferecido pelo banco, mesmo que não haja necessidade."
+        ],
+        "resposta_correta": "O cartão de crédito deve ser utilizado de forma consciente e regrada, sempre observando o orçamento pessoal."
+      },
+      {
+        "pergunta": "O que é crédito?",
+        "alternativas": [
+        "É o seu próprio dinheiro, e você pode gastar como quiser.",
+        "É a oferta de dinheiro, feita por instituições financeiras, para uso por um determinado tempo e que terá que ser devolvido com juros no futuro.",
+        "É o dinheiro oferecido de graça, pelos bancos, a seus clientes.",
+        "É o dinheiro que está investido na poupança",
+        "É garantir o empréstimo de outra pessoa."
+       ],
+        "resposta_correta": "É a oferta de dinheiro, feita por instituições financeiras, para uso por um determinado tempo e que terá que ser devolvido com juros no futuro.",
       }
     ]
   }
