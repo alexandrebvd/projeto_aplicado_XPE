@@ -1,49 +1,68 @@
 import streamlit as st
 import quiz as q
 
-# Para gerar a lista com 5 perguntas aleatórias sortidas do perguntas.json, se não clicar não vai ter perguntas para serem renderizadas.
-# Se clicar de novo um novo quiz com 5 perguntas vai ser escolhido.
+
+sst = st.session_state
+
+# Inicializa as variáveis que vamos compartilhar a cada rerun.
+if 'corretas' not in sst:
+    sst.corretas = 0
+
+if 'perguntas' not in sst:
+    sst.perguntas = []
+
+if 'questao_atual' not in sst:
+    sst.questao_atual = 1
+
+if 'quiz' not in sst:
+    sst.quiz = False
+
+
+# Define função que gera o quiz com 5 perguntas escolhidas aleatórias do arquivo json.
 def gerar_quiz():
     perguntas = q.quizGenerator()
-    st.session_state.perguntas = perguntas
+    sst.perguntas = perguntas
+    sst.corretas = 0
+    sst.quiz = True
     return
 
 
-st.title("Quiz")
+def verifica_alternativa():
+    for item in sst.items():
+        if item[1] and item[0] == sst.perguntas[int(sst.questao_atual) - 1]["resposta_correta"]:
+            sst.corretas += 1
+
+
+def renderiza_questao(n):
+    st.subheader(sst.perguntas[int(f"{n-1}")]["pergunta"])
+    for alternativa in sst.perguntas[int(f"{n-1}")]["alternativas"]:
+        st.button(alternativa, use_container_width=True, key=alternativa, on_click=verifica_alternativa)
+
+
 st.subheader("Vamos treinar os conceitos sobre educação financeira!")
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.title("Quiz")
+with col2:
+    st.write('Questões corretas: ', sst.corretas)
+with col3:
+    gerar_novo_quiz = st.button("Gerar novo Quiz", on_click=gerar_quiz)
 
 
-# Chama a função que gera o quiz
-gerar_novo_quiz = st.button("Gerar novo Quiz", on_click=gerar_quiz)
+if sst.quiz:
+    botoes = st.columns(5)
+    for indice_botao in range(len(botoes)):
+        with botoes[indice_botao]:
+            st.button(f'{indice_botao+1}', key=f"botao{indice_botao+1}", use_container_width=True)
 
 
-# Define o tamanho que os botões de selecionar questão e botões das alternativas vai ocupar.
-coluna1, coluna2 = st.columns([1,9])
+    for numero_questao in range(1,6):
+        atributo = "botao" + f"{numero_questao}"
+        if sst[f"{atributo}"] == True:
+            sst.questao_atual = numero_questao
 
-
-# Gera os botões para selecionar qual pergunta vai ser renderizada.
-# O streamlit vai guardar o estado de cada botão com a variavel nomeada da seguinte forma, ex.: botao1 pro primeiro botao.
-with coluna1:
-    buttons = [st.button(f'{i+1}', key=f"botao{i+1}") for i in range(5)]
-
-
-# a função clicou por enquanto tá fazendo nada, o próximo passo seria conseguir validar se
-# o botao clicado corresponde a alternativa correta.
-def clicou(texto):
-    print(alternativa)
-
-
-# Aqui a ideia é criar os botões com as alternativas, ele também vai renderizar as alternativas de acordo com o estado
-# do botão que tiver sido selecionado, veja que no começo ele não renderiza nenhuma questão, porque nenhum botão tá com
-# o estado true, assim que clicarmos em um botão ele vai ter o estado true e vai renderizar as alternativas da questão.
-with coluna2:
-    for n in range(1,6):
-        atributo = "botao" + f"{n}"
-        if st.session_state[f"{atributo}"] == True:
-            st.write(st.session_state.perguntas[int(f"{n-1}")]["pergunta"])
-            for alternativa in st.session_state.perguntas[int(f"{n-1}")]["alternativas"]:
-                st.button(alternativa, use_container_width=True, key=alternativa, on_click=clicou(alternativa))
-
+if sst.quiz:
+    renderiza_questao(sst.questao_atual)
 
 # Se quiser ver as variáveis guardadas a cada rerun é só descomentar a próxima linha
-# st.session_state
+# sst

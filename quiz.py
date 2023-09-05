@@ -7,7 +7,7 @@ def quizGenerator() -> list:
     
     shuffle(perguntas["perguntas"])
 
-    print(perguntas["perguntas"][:5])
+    # print(perguntas["perguntas"][:5])
     return perguntas["perguntas"][:5]
 
 
