@@ -210,7 +210,7 @@
         "resposta_correta": "Receber aluguel, pagar conta de luz"
       },
       {
-        "pergunta": "Sobre o conceito de Crédito e algumas de suas opções disponíveis no mercado, é correto dizer:"
+        "pergunta": "Sobre o conceito de Crédito e algumas de suas opções disponíveis no mercado, é correto dizer:",
           "alternativas": [
           "Podemos pegar dinheiro rápido, fácil e sem acréscimos de juros utilizando o cheque especial.",
           "O cartão de crédito deve ser utilizado de forma consciente e regrada, sempre observando o orçamento pessoal.",
@@ -229,7 +229,7 @@
         "É o dinheiro que está investido na poupança",
         "É garantir o empréstimo de outra pessoa."
        ],
-        "resposta_correta": "É a oferta de dinheiro, feita por instituições financeiras, para uso por um determinado tempo e que terá que ser devolvido com juros no futuro.",
+        "resposta_correta": "É a oferta de dinheiro, feita por instituições financeiras, para uso por um determinado tempo e que terá que ser devolvido com juros no futuro."
       }
     ]
   }
