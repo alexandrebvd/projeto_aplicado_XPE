@@ -223,13 +223,35 @@
       {
         "pergunta": "O que é crédito?",
         "alternativas": [
-        "É o seu próprio dinheiro, e você pode gastar como quiser.",
-        "É a oferta de dinheiro, feita por instituições financeiras, para uso por um determinado tempo e que terá que ser devolvido com juros no futuro.",
-        "É o dinheiro oferecido de graça, pelos bancos, a seus clientes.",
-        "É o dinheiro que está investido na poupança",
-        "É garantir o empréstimo de outra pessoa."
+         "É o seu próprio dinheiro, e você pode gastar como quiser.",
+         "É a oferta de dinheiro, feita por instituições financeiras, para uso por um determinado tempo e que terá que ser devolvido com juros no futuro.",
+         "É o dinheiro oferecido de graça, pelos bancos, a seus clientes.",
+         "É o dinheiro que está investido na poupança",
+         "É garantir o empréstimo de outra pessoa."
        ],
         "resposta_correta": "É a oferta de dinheiro, feita por instituições financeiras, para uso por um determinado tempo e que terá que ser devolvido com juros no futuro."
+      },
+      {
+        "pergunta": "Qual a importância do planejamento financeiro?"
+        "alternativas": [
+         "É de extrema importância para realizar todas os desejos do indivíduo. Pensando nos objetivos apenas em curto prazo.",
+         "O planejamento financeiro é primordial para tornar os projetos de vida em realidade, em razão de que os recursos disponíveis serão utilizados de maneira eficiente e regrada.",
+         "É primordial para organizar as contas, por isso não precisa ter disciplina para fazê-lo.",
+         "Mesmo que bem utilizado, o planejamento financeiro não ajuda na tomada de decisões",
+         "O planejamento financeiro é dispensável."
+       ],
+         "resposta_correta": "O planejamento financeiro é primordial para tornar os projetos de vida em realidade, em razão de que os recursos disponíveis serão utilizados de maneira eficiente e regrada."
+      },
+      {
+       "pergunta": "Pedro planeja adquirir um carro. Depois de analisar sua despesas, Pedro percebeu que pode arcar com uma parcela de R$500,00 por mês. Uma revenda o ofereceu um veículo cuja parcela de financiamento será de R$490,00. Baseado nesta situação, assinale a alternativa correta."
+       "alternativas": [
+        "Pedro deve adquirir o carro, independente de qualquer análise.",
+        "Pedro não deve adquirir o carro pois a parcela não cabe no seu orçamento.",
+        "Pedro deve adquirir o carro e conseguirá mantê-lo sem comprometer seu orçamento.",
+        "Pedro não deve comprar o carro pois, além de pagar as parcelas do carro, ele precisa ter orçamento sobrando para as demais despesas que virão com a compra, como gasolina, manutenção e impostos.",
+        "Pedro deve comprar o carro e fazer empréstimos para mantê-lo."
+       ],
+        "resposta_correta": "Pedro não deve comprar o carro pois, além de pagar as parcelas do carro, ele precisa ter orçamento sobrando para as demais despesas que virão com a compra, como gasolina, manutenção e impostos."
       }
     ]
   }
