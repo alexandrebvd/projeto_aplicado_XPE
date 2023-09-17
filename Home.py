@@ -1,4 +1,9 @@
 import streamlit as st
+from PIL import Image
+
+img = Image.open('fm-favicon.png')
+st.set_page_config(page_title="FinanceiraMente", page_icon = img)
+
 
 def main():
     st.title("Bem-vindo(a) ao FinanceiraMente")
