@@ -1,6 +1,10 @@
 import streamlit as st
 import finance_funcs as ff
 import re
+from PIL import Image
+
+img = Image.open('fm-favicon.png')
+st.set_page_config(page_title="FinanceiraMente", page_icon = img)
 
 st.title("Calculadoras e simuladores")
 st.subheader("Essas são algumas calculadoras e simuladores que podem ajudar em seu aprendizado e planejamento financeiro.")

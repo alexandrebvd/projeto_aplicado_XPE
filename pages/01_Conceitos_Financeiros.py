@@ -1,4 +1,8 @@
 import streamlit as st
+from PIL import Image
+
+img = Image.open('fm-favicon.png')
+st.set_page_config(page_title="FinanceiraMente", page_icon = img)
 
 st.title("Conceitos Financeiros")
 st.subheader("Nesta seção vamos entender mais sobre conceitos e jargões que permeiam esta área!")

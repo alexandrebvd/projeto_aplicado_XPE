@@ -1,4 +1,9 @@
 import streamlit as st
+from PIL import Image
+
+img = Image.open('fm-favicon.png')
+st.set_page_config(page_title="FinanceiraMente", page_icon = img)
+
 st.title("Sobre")
 st.subheader("FinanceiraMente é um projeto aplicado da Faculdade XPE desenvolvido pelo Squad 1")
 st.write("O aplicativo surgiu a partir da necessidade de promover o ensino de educação financeira para o público que não possui a capacitação necessária para atuação no mercado de trabalho nem conhecimentos de educação financeira. Dessa forma, nosso objetivo é que através da educação nosso público atinja uma melhor qualidade de vida a partir do planejamento financeiro e relização de suas metas.")

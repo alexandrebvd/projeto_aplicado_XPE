@@ -1,6 +1,9 @@
 import streamlit as st
 import quiz as q
-import json
+from PIL import Image
+
+img = Image.open('fm-favicon.png')
+st.set_page_config(page_title="FinanceiraMente", page_icon = img)
 
 
 sst = st.session_state
