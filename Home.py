@@ -14,6 +14,7 @@ def main():
     col1, col2 = st.columns(2)
     col1.button("Entrar", use_container_width=True)
     col2.button("Criar nova conta", use_container_width=True)
+    st.markdown(f"<p style='color:#ff0000;font-size:24px;'>Funcionalidade de login em construção.</p>", unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
