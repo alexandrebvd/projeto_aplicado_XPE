@@ -1,6 +1,8 @@
 import streamlit as st
 import finance_funcs as ff
 import re
+import numpy as np
+import plotly.graph_objects as go
 from PIL import Image
 
 img = Image.open('fm-favicon.png')
@@ -24,6 +26,21 @@ with  st.expander("Calculadora de juros simples"):
 
     # Display the final amount with larger font size
     st.markdown(f"<p style='font-size:24px;'>Total acumulado: R$ {result:.2f}</p>", unsafe_allow_html=True)
+    x_values = np.arange(time + 1)
+    y_values = [ff.calculate_simple_interest(principal, rate, t) for t in x_values]
+    fig = go.Figure()
+    fig.add_trace(
+            go.Scatter(
+                x=x_values, 
+                y=y_values,
+                name="Juros simples"
+            )
+        )
+    fig.update_layout(title='Gráfico de juros simples',
+                   xaxis_title='Anos',
+                   yaxis_title='Valor(R$)')
+
+    st.plotly_chart(fig, use_container_width=True)
 
 
 # Juros compostos
