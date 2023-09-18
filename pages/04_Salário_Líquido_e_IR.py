@@ -56,7 +56,7 @@ def calculate_IRPF(grossSalary, dependents):
 
 st.title("Salário Líquido")  
 
-with st.expander("Cáculo do Salário Líquido"):
+with st.expander("Salário Líquido e IR", expanded=True):
     # Input parameters
     grossSalary = st.number_input("Salário Bruto", value=1320.0) 
     dependents = st.number_input("Número de dependentes", value=0)
