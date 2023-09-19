@@ -17,7 +17,11 @@ def text_to_list(text):
     """
     numbers_list = "".join(text.split())
     numbers_list = numbers_list.split(",")
-    numbers_list = [float(i) for i in numbers_list]
+    try:
+        numbers_list = [float(i) for i in numbers_list]
+    except:
+        st.error("Erro: insira apenas números separados por vírgula.")
+        numbers_list = []
     return numbers_list
 
 # Juros simples
@@ -108,7 +112,7 @@ with st.expander("Calculadora de valor futuro da anuidade"):
 with st.expander("Calculadora do ROI (Retorno sobre o investimento)"):
     # Input parameters
     gains = st.number_input("Ganhos provenientes do investimento", min_value=0.0, value=3000.0)
-    costs = st.number_input("Custos do investimento", min_value=0.0, value=2500.0)
+    costs = st.number_input("Custos do investimento", min_value=0.01, value=2500.0)
 
     result = ff.calculate_roi(gains, costs)
 
@@ -121,9 +125,14 @@ with st.expander("Calculadora de ponto de Break Even"):
     fixed_costs = st.number_input("Custos fixos", min_value=0.0, value=500.0)
     variable_costs = st.number_input("Custos variáveis por unidade", min_value=0.0, value=2.50)
     selling_price = st.number_input("Preço de venda por unidade", min_value=0.0, value=10.0)
-
-    result = ff.calculate_break_even_point(fixed_costs, variable_costs, selling_price)
-
+    try:
+        result = ff.calculate_break_even_point(fixed_costs, variable_costs, selling_price)
+    except:
+        st.error("Erro: Custos variáveis não podem ter o mesmo valor do preço de venda.")
+        result = 0
+    if variable_costs > selling_price:
+        st.error("Erro: Custos variáveis não podem ser maiores que o preço de venda.")
+        result = 0
     st.markdown(f"<p style='font-size:24px;'>O ponto de break even ocorre em {result:.0f} unidades</p>", unsafe_allow_html=True)
     
 
@@ -141,6 +150,9 @@ with st.expander("Calculadora do valor presente líquido"):
 
 # Taxa interna de retorno
 with st.expander("Calculadora da taxa interna de retorno"):
+    st.write("A taxa interna de retorno é a taxa de desconto que torna o valor presente líquido igual a zero.\
+            Para calcular a TIR, basta inserir os fluxos de caixa futuros. Lembrando que o primeiro fluxo de caixa\
+            deve ser negativo, pois representa o investimento inicial.", )
     str_cash_flows = st.text_input("Lista de fluxos de caixa futuros", value="-100, 39, 59, 55, 20")
     cash_flows = np.array(text_to_list(str_cash_flows))
     result = ff.calculate_internal_rate_of_return(cash_flows)

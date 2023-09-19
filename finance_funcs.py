@@ -146,5 +146,8 @@ def calculate_loan_payments(principal, rate, periods):
     Returns:
     float: O valor dos pagamentos do empréstimo.
     """
-    payment = (principal * rate) / (1 - (1 + rate) ** -periods)
+    if rate == 0:
+        payment = principal / periods
+    else:
+        payment = (principal * rate) / (1 - (1 + rate) ** -periods)
     return payment
