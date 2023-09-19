@@ -64,7 +64,7 @@ with st.expander("Salário Líquido e IR", expanded=True):
     resultINSS = calculate_INSS(grossSalary)
     resultIRPF = calculate_IRPF(grossSalary, dependents)
 
-    otherDiscounts = st.number_input("Outros descontos", min_value=0.0, max_value=(grossSalary - resultINSS - resultIRPF), value=0.0)
+    otherDiscounts = st.number_input("Outros descontos", min_value=0.0, value=0.0)
     
     finalResult = grossSalary - (resultINSS + resultIRPF + otherDiscounts)
 

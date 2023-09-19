@@ -113,7 +113,7 @@ with st.expander("Calculadora da taxa interna de retorno"):
 with st.expander("Calculadora de depreciação linear"):
     # Input parameters
     initial_value = st.number_input("Valor inicial do ativo", value=33000.00)
-    salvage_value = st.number_input("Valor residual do ativo", value=15000.00)
+    salvage_value = st.number_input("Valor residual do ativo", max_value=initial_value, value=15000.00)
     useful_life = st.number_input("Vida útil do ativo em períodos", value=7)
 
     result = ff.calculate_straight_line_depreciation(initial_value, salvage_value, useful_life)
