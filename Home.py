@@ -39,8 +39,12 @@ light = '''
 '''
 st.markdown(light, unsafe_allow_html=True)
 
-# Create a toggle button
-toggle = st.button("Modo :sun_with_face:/ :new_moon_with_face:")
+with st.sidebar:
+    # Create a toggle button
+    toggle = st.button("Modo :sun_with_face:/ :new_moon_with_face:")
+    col1, col2, col3 = st.columns(3)
+    with col2:
+        st.image('financeiraMente__1_-removebg-preview.png')
 
 # Use a global variable to store the current theme
 if "theme" not in st.session_state:
@@ -66,7 +70,7 @@ def main():
     st.write("Projeto Aplicado - Faculdade XPE")
     col1, col2, col3 = st.columns(3)
     with col2:
-        st.image('financeiraMente__1_-removebg-preview.png', width=380)
+        st.image('financeiraMente__1_-removebg-preview.png',)
     st.subheader("Nosso objetivo é facilitar o seu aprendizado sobre educação financeira.")
 
     col4, col5 = st.columns(2)
