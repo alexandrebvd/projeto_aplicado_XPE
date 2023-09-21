@@ -1,44 +1,10 @@
 import streamlit as st
 from PIL import Image
+from styles import dark, light
 
 img = Image.open('fm-favicon.png')
 st.set_page_config(page_title="FinanceiraMente", page_icon = img)
 
-dark = '''
-<style>
-    .stApp {
-    background-color: #0E1117;
-    color: #FAFAFA;
-    }
-    .block-container {
-    background-color: #0E1117;
-    color: #FAFAFA;
-    }
-    li {
-    color: #FAFAFA;
-    }
-    h1, span {
-    color: #FAFAFA;
-    }
-    .element-container {
-    color: #FAFAFA;
-    }
-    
-    p {
-    color: #FAFAFA;
-    }
-    
-</style>
-'''
-
-light = '''
-<style>
-    .stApp {
-    background-color: #FFFFFF;
-    color: #31333F
-    }
-</style>
-'''
 st.markdown(light, unsafe_allow_html=True)
 
 with st.sidebar:
