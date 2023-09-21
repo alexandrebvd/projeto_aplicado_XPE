@@ -1,3 +1,5 @@
+from numpy_financial import irr
+
 def calculate_simple_interest(principal, rate, time):
     """
     Calcula o juro simples.
@@ -27,7 +29,7 @@ def calculate_compound_interest(principal, rate, time, frequency):
     float: O montante final após juro composto.
     """
     n = frequency
-    amount = principal * (1 + rate/100 / n) ** (n * time)
+    amount = principal * (1 + rate / n) ** (n * time)
     return amount
 
 def calculate_annuity_payment(principal, rate, periods):
@@ -45,19 +47,6 @@ def calculate_annuity_payment(principal, rate, periods):
     payment = (principal * rate) / (1 - (1 + rate) ** -periods)
     return payment
 
-def present_value_of_cash_flows(cash_flows, rate):
-    """
-    Calcula o valor presente de fluxos de caixa futuros.
-    
-    Args:
-    cash_flows (list): Uma lista de fluxos de caixa futuros.
-    rate (float): A taxa de desconto por período (em decimal).
-    
-    Returns:
-    float: O valor presente líquido dos fluxos de caixa.
-    """
-    pv = sum([cf / (1 + rate) ** idx for idx, cf in enumerate(cash_flows)])
-    return pv
 
 def calculate_future_value_of_annuity(payment, rate, periods):
     """
@@ -128,7 +117,7 @@ def calculate_internal_rate_of_return(cash_flows):
     float: A Taxa Interna de Retorno calculada.
     """
     # Implementação da TIR usando métodos numéricos
-    pass
+    return irr(cash_flows)
 
 def calculate_straight_line_depreciation(initial_value, salvage_value, useful_life):
     """
@@ -157,5 +146,8 @@ def calculate_loan_payments(principal, rate, periods):
     Returns:
     float: O valor dos pagamentos do empréstimo.
     """
-    payment = (principal * rate) / (1 - (1 + rate) ** -periods)
+    if rate == 0:
+        payment = principal / periods
+    else:
+        payment = (principal * rate) / (1 - (1 + rate) ** -periods)
     return payment
