@@ -89,13 +89,14 @@ st.title("Salário Líquido")
 
 with st.expander("Salário Líquido e IR", expanded=True):
     # Input parameters
-    grossSalary = st.number_input("Salário Bruto", value=1320.0) 
-    dependents = st.number_input("Número de dependentes", value=0)
-    otherDiscounts = st.number_input("Outros descontos", value=0.0)
+    grossSalary = st.number_input("Salário Bruto", min_value=0.0, value=1320.0) 
+    dependents = st.number_input("Número de dependentes", min_value=0, value=0)
 
-    # Calculations
     resultINSS = calculate_INSS(grossSalary)
     resultIRPF = calculate_IRPF(grossSalary, dependents)
+
+    otherDiscounts = st.number_input("Outros descontos", min_value=0.0, value=0.0)
+    
     finalResult = grossSalary - (resultINSS + resultIRPF + otherDiscounts)
 
     # Display the final amount with larger font size
