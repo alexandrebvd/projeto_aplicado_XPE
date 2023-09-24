@@ -62,5 +62,8 @@ light = '''
     background-color: #FFFFFF;
     color: #31333F
     }
+    h1, span {
+    color: #000000;
+    }
 </style>
 '''
