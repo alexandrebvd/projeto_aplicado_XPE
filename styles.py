@@ -20,14 +20,11 @@ dark = '''
     .stButton {
     color: #31333F;
     }
-    .st-c0 {
-    color: #FAFAFA
-    }
     .css-ue6h4q {
     color: #FAFAFA
     }
-    .st-df {
-    background-color: #2c384b
+    .st-et {
+    color: #FAFAFA    
     }
     .css-18ni7ap.ezrtsby2 {
     background-color: #2d2d43
@@ -35,8 +32,14 @@ dark = '''
     .css-vk3wp9.eczjsme11 {
     background-color: #2d2d43
     }
+    .css-pkbazv.eczjsme5 {
+        color: #FFFFFF
+    }
+    .css-40ynm6.eczjsme8 {
+        color: #FFFFFF
+    }
     .css-17lntkn.eczjsme5 {
-    color: #ffffff99
+    color: #FFFFFF
     }
     .css-79elbk eczjsme10 {
     color: #ffffff99
@@ -46,6 +49,9 @@ dark = '''
     }
     .css-m8hsoe::after{
     background-image: linear-gradient(0deg, #111723, transparent);
+    }
+    .css-16idsys {
+    color: #ffffffff    
     }
 </style>
 '''
