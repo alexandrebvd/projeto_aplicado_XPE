@@ -53,6 +53,19 @@ dark = '''
     .css-16idsys {
     color: #ffffffff    
     }
+    [data-testid="stSidebarNav"] {
+                background-image: url(https://i.imgur.com/4WpPofn_d.webp?maxwidth=240&fidelity=grand);
+                background-repeat: no-repeat;
+                padding-top: 70px;
+                background-position: top;
+            }
+            [data-testid="stSidebarNav"]::before {
+                margin-left: 20px;
+                margin-top: 20px;
+                font-size: 30px;
+                position: relative;
+                top: 80px;
+                }
     .css-fblp2m {
     color: #ffffffff
     }
@@ -68,6 +81,20 @@ light = '''
     h1, span {
     color: #000000;
     }
+    [data-testid="stSidebarNav"] {
+                background-image: url(https://i.imgur.com/4WpPofn_d.webp?maxwidth=240&fidelity=grand);
+                background-repeat: no-repeat;
+                padding-top: 70px;
+                background-position: top;
+               
+            }
+            [data-testid="stSidebarNav"]::before {
+                margin-left: 20px;
+                margin-top: 20px;
+                font-size: 30px;
+                position: relative;
+                top: 80px;
+                }
     .css-6qob1r.eczjsme11 {
     color: #0E1117;
     }
