@@ -252,6 +252,182 @@
         "Pedro deve comprar o carro e fazer empréstimos para mantê-lo."
        ],
         "resposta_correta": "Pedro não deve comprar o carro pois, além de pagar as parcelas do carro, ele precisa ter orçamento sobrando para as demais despesas que virão com a compra, como gasolina, manutenção e impostos."
+      },
+      {
+        "pergunta": "O que é moeda digital?",
+        "alternativas": [
+          "Moeda digital é uma forma de pagamento offline",
+          "Moeda digital é uma forma de pagamento que utiliza cartões de crédito e débito exclusivamente.",
+          "Moeda digital é qualquer moeda, dinheiro ou ativo semelhante a dinheiro que seja gerenciado, armazenado ou trocado principalmente em sistemas de computador digital, especialmente pela Internet.",
+          "Moeda digital é uma criptomoeda que só pode ser usada para transações ilegais na dark web.",
+          "Moeda digital é uma moeda emitida exclusivamente por um governo central."
+        ],
+        "resposta_correta": "Moeda digital é qualquer moeda, dinheiro ou ativo semelhante a dinheiro que seja gerenciado, armazenado ou trocado principalmente em sistemas de computador digital, especialmente pela Internet."
+      },
+      {
+        "pergunta": "O que é a taxa SELIC?",
+        "alternativas": [
+          "A taxa SELIC é a taxa de inflação anual de um país.",
+          "A taxa SELIC é a taxa de juros básica da economia brasileira, utilizada como referência para diversas operações financeiras.",
+          "A taxa SELIC é a taxa de crescimento do PIB de um país.",
+          "A taxa SELIC é a taxa de câmbio entre moedas estrangeiras.",
+          "A taxa SELIC é a taxa de desemprego de um país."
+        ],
+        "resposta_correta": "A taxa SELIC é a taxa de juros básica da economia brasileira, utilizada como referência para diversas operações financeiras."
+      },
+      {
+        "pergunta": "O que é inflação?",
+        "alternativas": [
+          "Inflação é a diminuição geral dos preços dos bens e serviços em uma economia.",
+          "Inflação é o aumento da demanda por produtos e serviços em uma economia.",
+          "Inflação é a taxa de juros praticada pelos bancos centrais.",
+          "Inflação é a variação negativa do PIB de um país.",
+          "Inflação é o aumento contínuo e generalizado dos preços dos bens e serviços em uma economia ao longo do tempo."
+        ],
+        "resposta_correta": "Inflação é o aumento contínuo e generalizado dos preços dos bens e serviços em uma economia ao longo do tempo."
+      },
+      {
+        "pergunta": "Como a inflação impacta o dia a dia da população?",
+        "alternativas": [
+          "A inflação não tem impacto direto no dia a dia da população.",
+          "A inflação pode aumentar o poder de compra do dinheiro, tornando os produtos mais baratos.",
+          "A inflação pode reduzir o poder de compra do dinheiro, levando a aumentos de preços e diminuição do poder aquisitivo.",
+          "A inflação só afeta o dia a dia de uma pessoa se ela estiver investindo em ações na bolsa de valores.",
+          "A inflação afeta apenas os preços de produtos importados, não tendo impacto significativo no dia a dia da população."
+        ],
+        "resposta_correta": "A inflação pode reduzir o poder de compra do dinheiro, levando a aumentos de preços e diminuição do poder aquisitivo."
+      },
+      {
+        "pergunta": "Qual a diferença entre inflação e deflação?",
+        "alternativas": [
+          "Inflação refere-se a uma diminuição geral dos preços, enquanto deflação é o aumento geral dos preços.",
+          "Inflação é o aumento geral dos preços, enquanto deflação é a diminuição geral dos preços.",
+          "Inflação e deflação são termos usados de forma intercambiável e não têm diferença significativa.",
+          "Inflação é o aumento dos salários dos trabalhadores, enquanto deflação é a diminuição dos lucros das empresas.",
+          "Inflação e deflação são conceitos relacionados à variação da taxa de desemprego."
+        ],
+        "resposta_correta": "Inflação é o aumento geral dos preços, enquanto deflação é a diminuição geral dos preços."
+      },
+      {
+        "pergunta": "Qual a importância do Índice Ibovespa?",
+        "alternativas": [
+          "O Índice Ibovespa é um índice que reflete o desempenho das principais ações negociadas na Bolsa de Valores de São Paulo (B3) e é amplamente utilizado como referência para o mercado financeiro brasileiro.",
+          "O Índice Ibovespa é um índice que reflete o desempenho dos principais Fundos Imobiliários(FII) negociados.",
+          "O Índice Ibovespa é um índice que reflete o desempenho econômico brasileiro.",
+          "O Índice Ibovespa é um índice que reflete o desempenho das exportações brasileiras.",
+          "O Índice Ibovespa é um índice que reflete o valor da moeda brasileira ao longo dos anos."
+        ],
+        "resposta_correta": "O Índice Ibovespa é um índice que reflete o desempenho das principais ações negociadas na Bolsa de Valores de São Paulo (B3) e é amplamente utilizado como referência para o mercado financeiro brasileiro."
+      },
+      {
+        "pergunta": "Para um ativo financeiro qualquer, a volatilidade é uma medida de?",
+        "alternativas": [
+          "Risco",
+          "Liquidez",
+          "Retorno",
+          "Desempenho",
+          "Custo"
+        ],
+        "resposta_correta": "Risco"
+      },
+      {
+        "pergunta": "O índice de inflação oficialmente utilizado pelo governo brasileiro para verificar o cumprimento da meta de inflação é o?",
+        "alternativas": [
+          "Índice Geral de Preços(IGPM)",
+          "Indice Nacional de Preços ao Consumidor(INPC)",
+          "Indice Nacional de Preços ao Consumidor Amplo(IPCA)",
+          "Indice de Preços ao Consumidor(IPC)",
+          "Indice Geral de Preços Disponibilidade Interna(IGDI)"
+        ],
+        "resposta_correta": "Indice Nacional de Preços ao Consumidor Amplo(IPCA)"
+      },
+      {
+        "pergunta": "Quais as funções da moeda?",
+        "alternativas": [
+          "A moeda serve apenas como meio de pagamento para transações comerciais.",
+          "A moeda é utilizada exclusivamente como reserva de valor, sem outras funções.",
+          "As funções da moeda incluem servir como meio de pagamento, unidade de conta, e reserva de valor.",
+          "A moeda é apenas um objeto de colecionador, sem utilidade econômica.",
+          "A moeda tem apenas a função de representar o poder de compra de um indivíduo."
+        ],
+        "resposta_correta": "As funções da moeda incluem servir como meio de pagamento, unidade de conta, e reserva de valor."
+      },
+      {
+        "pergunta": "O que é uma criptomoeda?",
+        "alternativas": [
+          "Uma criptomoeda é uma nota ou moeda digital emitida por um governo central.",
+          "Uma criptomoeda é uma moeda digital descentralizada que utiliza criptografia para garantir transações seguras e controlar a criação de novas unidades.",
+          "Uma criptomoeda é uma unidade de valor utilizada apenas em jogos online.",
+          "Uma criptomoeda é uma forma de pagamento exclusiva para compras na dark web.",
+          "Uma criptomoeda é uma unidade de valor armazenada em dispositivos físicos, como pen drives."
+        ],
+        "resposta_correta": "Uma criptomoeda é uma moeda digital descentralizada que utiliza criptografia para garantir transações seguras e controlar a criação de novas unidades."
+      },
+      {
+        "pergunta": "Qual é o objetivo principal da declaração de imposto de renda?",
+        "alternativas": [
+         "Para pagar mais impostos do que o devido e apoiar programas governamentais.",
+         "Para evitar completamente o pagamento de impostos sobre a renda.",
+         "Para calcular o valor exato dos bens pessoais de um indivíduo.",
+         "Para relatar a renda e as deduções de despesas e cumprir as obrigações fiscais.",
+         "Para investir em ações e aumentar o patrimônio líquido."
+       ],
+         "resposta_correta": "Para relatar a renda e as deduções de despesas e cumprir as obrigações fiscais."
+      },
+      {
+        "pergunta": "Quais são os principais fatores que as seguradoras consideram ao determinar o custo do prêmio de um seguro automóvel?",
+        "alternativas": [
+         "A cor do veículo e a marca de pneus.",
+         "O histórico de sinistros do segurado e a idade do veículo.",
+         "O tamanho do motor e a distância até o local de trabalho.",
+         "A quilometragem anual e a altura do teto do carro.",
+         "O número de passageiros e o consumo de combustível do veículo."
+       ],
+         "resposta_correta": "O histórico de sinistros do segurado e a idade do veículo."
+      },
+      {
+        "pergunta": "Qual é a finalidade principal da reserva de emergência em finanças pessoais?",
+        "alternativas": [
+         "Para financiar férias e compras de luxo.",
+         "Para investir em ações e aumentar o patrimônio líquido rapidamente.",
+         "Para aposentadoria antecipada e planejamento de longo prazo.",
+         "Para lidar com despesas imprevistas e situações de emergência.",
+         "Para pagar dívidas e empréstimos de forma mais rápida."
+       ],
+         "resposta_correta": "Para lidar com despesas imprevistas e situações de emergência."
+      },
+      {
+        "pergunta": "Qual é o principal benefício de acompanhar de perto seus gastos e receitas por meio de um orçamento pessoal?",
+        "alternativas": [
+         "Aumentar a quantidade de dívidas contraídas.",
+         "Gastar impulsivamente em compras não planejadas.",
+         "Reduzir a transparência financeira e a responsabilidade.",
+         "Controlar as finanças, economizar dinheiro e alcançar metas financeiras.",
+         "Tornar-se menos consciente das despesas e da renda pessoal."
+       ],
+         "resposta_correta": "Controlar as finanças, economizar dinheiro e alcançar metas financeiras."
+      },
+      {
+        "pergunta": "Em muitos países, o imposto de renda é progressivo. O que isso significa?",
+        "alternativas": [
+         "Isso significa que o imposto de renda é pago apenas por empresas e não por indivíduos.",
+         "Isso significa que a taxa de imposto é fixa e não varia de acordo com a renda.",
+         "Isso significa que a taxa de imposto aumenta à medida que a renda do contribuinte aumenta.",
+         "Isso significa que o imposto de renda é calculado com base no patrimônio líquido e não na renda.",
+         "Isso significa que não há imposto de renda em um país com sistema progressivo."
+       ],
+         "resposta_correta": "Isso significa que a taxa de imposto aumenta à medida que a renda do contribuinte aumenta."
+      },
+      {
+        "pergunta": "Em um orçamento pessoal, quais são exemplos de itens que podem ser incluídos nas categorias de despesas fixas e despesas variáveis?",
+        "alternativas": [
+         "Despesas fixas podem incluir aluguel/moradia, contas de serviços públicos (como água e eletricidade) e pagamento de empréstimos. Despesas variáveis podem incluir alimentação, entretenimento e viagens.",
+         "Despesas fixas podem incluir alimentação, transporte e compras de roupas. Despesas variáveis podem incluir aluguel/moradia, contas de serviços públicos e gastos médicos.",
+         "Despesas fixas podem incluir alimentação, lazer e viagens. Despesas variáveis podem incluir aluguel/moradia, contas de serviços públicos e pagamento de empréstimos.",
+         "Despesas fixas podem incluir lazer, viagens e gastos médicos. Despesas variáveis podem incluir aluguel/moradia, contas de serviços públicos e transporte.",
+         "Despesas fixas podem incluir gastos médicos, transporte e compras de roupas. Despesas variáveis podem incluir aluguel/moradia, contas de serviços públicos e alimentação."
+       ],
+         "resposta_correta": "Despesas fixas podem incluir aluguel/moradia, contas de serviços públicos (como água e eletricidade) e pagamento de empréstimos. Despesas variáveis podem incluir alimentação, entretenimento e viagens."
       }
     ]
   }
