@@ -68,3 +68,23 @@ with st.expander("Exchange Traded Fund (ETF)"):
 with st.expander("Fundos imobiliários (FII)"):
     st.markdown(f"<p style='font-size:20px;'>No fundo imobiliário, os recursos aplicados são investidos em empreendimentos imobiliários, como shoppings, hospitais e prédios comerciais. Ao adquirir cotas de FIIs, o investidor passa a receber parte dos aluguéis dos imóveis.</p>", unsafe_allow_html=True)
 
+with st.expander("Taxa SELIC"):
+    st.markdown(f"<p style='font-size:20px;'>Selic é a taxa básica de juros da economia brasileira. Basicamente, ela influencia todas as demais taxas de juros do Brasil, como as cobradas em empréstimos, financiamentos, e também afeta o retorno de aplicações financeiras.</p>", unsafe_allow_html=True)
+    
+with st.expander("Inflação"):
+    st.markdown(f"<p style='font-size:20px;'>Inflação é um termo usado para designar o aumento de preços de bens e serviços. Com isso, a inflação representa o aumento do custo e vida e a consequente redução no poder de compra da moeda.</p>", unsafe_allow_html=True)
+    
+with st.expander("Deflação"):
+    st.markdown(f"<p style='font-size:20px;'>Ao contrário da inflação, a deflação a redução de preços de bens e serviços. Sendo assim, ela representa a redução do custo e vida e a consequente aumento no poder de compra da moeda.</p>", unsafe_allow_html=True)
+    
+with st.expander("Índice Ibovespa"):
+    st.markdown(f"<p style='font-size:20px;'>Conhecido como IBOV, o índice funciona como um termômetro do mercado acionário do Brasil e mede, através de um sistema de pontos baseado em reais, o desempenho médio de uma carteira teórica com as ações mais representativas e negociadas em Bolsa.</p>", unsafe_allow_html=True)
+    
+with st.expander("Taxa de Câmbio"):
+    st.markdown(f"<p style='font-size:20px;'>A taxa de câmbio é o preço relativo entre duas moedas diferentes. É o valor pelo qual uma moeda pode ser trocada por outra. Ela indica quantas unidades de uma moeda são necessárias para comprar uma unidade de outra moeda e vice-versa.</p>", unsafe_allow_html=True)
+
+with st.expander("Moedas Digitais"):
+    st.markdown(f"<p style='font-size:20px;'>Moeda digital é qualquer moeda, dinheiro ou ativo semelhante a dinheiro que seja gerenciado, armazenado ou trocado principalmente em sistemas de computador digital, especialmente pela Internet. Os tipos de moedas digitais incluem criptomoeda, moeda virtual e moeda digital do banco central.</p>", unsafe_allow_html=True)
+
+with st.expander("Criptomoeda"):
+    st.markdown(f"<p style='font-size:20px;'>Uma criptomoeda ou cibermoeda é um meio de troca, geralmente descentralizado, que se utiliza da tecnologia de blockchain e da criptografia para assegurar a validade das transações e a criação de novas unidades da moeda.</p>", unsafe_allow_html=True)
