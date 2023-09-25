@@ -68,3 +68,26 @@ with st.expander("Exchange Traded Fund (ETF)"):
 with st.expander("Fundos imobiliários (FII)"):
     st.markdown(f"<p style='font-size:20px;'>No fundo imobiliário, os recursos aplicados são investidos em empreendimentos imobiliários, como shoppings, hospitais e prédios comerciais. Ao adquirir cotas de FIIs, o investidor passa a receber parte dos aluguéis dos imóveis.</p>", unsafe_allow_html=True)
 
+with st.expander("Orçamento Pessoal"):
+    st.markdown(f"<p style='font-size:20px;'>O orçamento pessoal é uma ferramenta de controle de gastos, que detalha suas receitas e despesas,ajudando a controlar seus gastos e garantir que você viva dentro de suas possibilidades financeiras. </p>", unsafe_allow_html=True)
+
+with st.expander("Reserva de Emergência"):
+    st.markdown(f"<p style='font-size:20px;'>A reserva de emergência é quando uma pessoa economiza dinheiro ao longo do tempo para lidar com despesas inesperadas, como contas médicas, reparos em casa, compra de remédios, conserto do carro e gastos com educação.</p>", unsafe_allow_html=True)
+
+with st.expander("Educação Financeira"):
+    st.markdown(f"<p style='font-size:20px;'>A educação financeira é o processo de aprender a gerenciar suas finanças de forma eficaz e tomar decisões informadas sobre o dinheiro. É sobre se perguntar antes de cada compra se você quer ou precisa daquele produto ou serviço.</p>", unsafe_allow_html=True)
+
+with st.expander("Aposentadoria"):
+    st.markdown(f"<p style='font-size:20px;'>A aposentadoria é um benefício que a Previdência Social oferece aos trabalhadores segurados que satisfaçam os critérios estabelecidos por lei, como aposentadoria por invalidez, outros critérios específicos, idade mínima e/ou tempo de contribuição. Que envolve economizar e investir ao longo da vida para garantir uma renda estável quando você parar de trabalhar.</p>", unsafe_allow_html=True)
+
+with st.expander("Seguro"):
+    st.markdown(f"<p style='font-size:20px;'>O seguro é um contrato em que a parte contratada deve compensar a outra parte por eventos específicos que ocorreram ou pelos possíveis prejuízos conforme estipulado nas condições contratuais, ou seja, é um contrato que protege contra riscos financeiros, como saúde, vida, propriedade e automóvel e é uma parte importante do planejamento financeiro pessoal.</p>", unsafe_allow_html=True)
+
+with st.expander("Conta Poupança"):
+    st.markdown(f"<p style='font-size:20px;'>Uma conta poupança é um tipo de conta bancária que é usada principalmente para guardar dinheiro e economizar. Ela oferece juros sobre o saldo depositado, ajudando a aumentar gradualmente o dinheiro economizado.</p>", unsafe_allow_html=True)
+
+with st.expander("Conta Corrente"):
+    st.markdown(f"<p style='font-size:20px;'>Uma conta corrente, é uma conta bancária que é usada para transações diárias, como pagar contas, fazer compras com cartões de débito, e transferir dinheiro. Diferentemente da conta poupança, a conta corrente geralmente não gera juros significativos sobre o saldo e é projetada para facilitar transações financeiras.</p>", unsafe_allow_html=True)
+
+with st.expander("Imposto de Renda"):
+    st.markdown(f"<p style='font-size:20px;'>Imposto de Renda é um tributo obrigatório que as pessoas e as empresas devem pagar ao governo com base em sua renda ou lucro. Ele é usado para financiar serviços públicos, programas governamentais e infraestrutura.</p>", unsafe_allow_html=True)
