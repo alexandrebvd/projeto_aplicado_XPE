@@ -58,7 +58,6 @@ dark = '''
                 background-repeat: no-repeat;
                 padding-top: 70px;
                 background-position: top;
-               
             }
             [data-testid="stSidebarNav"]::before {
                 margin-left: 20px;
@@ -66,6 +65,10 @@ dark = '''
                 font-size: 30px;
                 position: relative;
                 top: 80px;
+                }
+    .css-fblp2m {
+    color: #ffffffff
+    }
 </style>
 '''
 
@@ -91,5 +94,9 @@ light = '''
                 font-size: 30px;
                 position: relative;
                 top: 80px;
+                }
+    .css-6qob1r.eczjsme11 {
+    color: #0E1117;
+    }
 </style>
 '''
