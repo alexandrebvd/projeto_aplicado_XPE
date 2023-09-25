@@ -254,7 +254,6 @@
         "resposta_correta": "Pedro não deve comprar o carro pois, além de pagar as parcelas do carro, ele precisa ter orçamento sobrando para as demais despesas que virão com a compra, como gasolina, manutenção e impostos."
       },
       {
-<<<<<<< HEAD
         "pergunta": "O que é moeda digital?",
         "alternativas": [
           "Moeda digital é uma forma de pagamento offline",
@@ -363,7 +362,8 @@
           "Uma criptomoeda é uma unidade de valor armazenada em dispositivos físicos, como pen drives."
         ],
         "resposta_correta": "Uma criptomoeda é uma moeda digital descentralizada que utiliza criptografia para garantir transações seguras e controlar a criação de novas unidades."
-=======
+      },
+      {
         "pergunta": "Qual é o objetivo principal da declaração de imposto de renda?",
         "alternativas": [
          "Para pagar mais impostos do que o devido e apoiar programas governamentais.",
@@ -428,7 +428,6 @@
          "Despesas fixas podem incluir gastos médicos, transporte e compras de roupas. Despesas variáveis podem incluir aluguel/moradia, contas de serviços públicos e alimentação."
        ],
          "resposta_correta": "Despesas fixas podem incluir aluguel/moradia, contas de serviços públicos (como água e eletricidade) e pagamento de empréstimos. Despesas variáveis podem incluir alimentação, entretenimento e viagens."
->>>>>>> conteudo-educativo
       }
     ]
   }
