@@ -114,7 +114,34 @@ if sst.quiz:
             st.radio(f'Q{i+1}: {questao["pergunta"]}', options=[""]+questao["alternativas"], key=f'questao_{i+1}')
         submitted = st.form_submit_button(label='Submit', on_click=verifica_preenchimento)
         if sst.preenchido:
+            porcentagem_acertos = sst.corretas / sst.n_perguntas
             st.success(f"Você acertou {sst.corretas} de {sst.n_perguntas}.")
+            with st.expander("**Feedback:**"):
+                if 0 <= porcentagem_acertos <= 0.25:
+                    st.error(f'''**Sua porcentagem de acertos foi de {porcentagem_acertos*100:.0f}%**  
+                            **Você está iniciando**  
+                            Parabéns por mostrar interesse em melhorar seus conhecimentos em finanças! Seu nível atual de conhecimento é relativamente baixo, mas não se preocupe, muitas pessoas começam a partir desse ponto. Para melhorar, você pode começar lendo livros, participando de cursos online ou consultando um profissional de finanças. Com dedicação e esforço, você pode aumentar seu conhecimento e tomar decisões financeiras mais informadas.''',
+                            icon = "🚨")
+                    st.write("Independentemente da faixa em que você se encontra, lembre-se de que a educação financeira é uma jornada contínua. Nunca é tarde para melhorar seus conhecimentos financeiros e tomar decisões mais sólidas em relação ao seu dinheiro. Continue investindo em seu aprendizado e colherá os benefícios ao longo do tempo.")
+                if 0.25 < porcentagem_acertos <= 0.5:
+                    st.warning(f'''**Sua porcentagem de acertos foi {porcentagem_acertos*100:.0f}%**  
+                            **Você já tem algum conhecimento**  
+                            Você já tem um conhecimento básico em finanças, o que é um bom começo. No entanto, ainda há espaço para melhorias. Considere aprofundar seus conhecimentos em áreas específicas, como investimentos, orçamento pessoal ou planejamento para o futuro. A educação financeira é uma jornada contínua, e com mais esforço, você pode tomar decisões financeiras mais sólidas e alcançar seus objetivos.''',
+                            icon = "📈")
+                    st.write("Independentemente da faixa em que você se encontra, lembre-se de que a educação financeira é uma jornada contínua. Nunca é tarde para melhorar seus conhecimentos financeiros e tomar decisões mais sólidas em relação ao seu dinheiro. Continue investindo em seu aprendizado e colherá os benefícios ao longo do tempo.")
+                if 0.5 < porcentagem_acertos <= 0.75:
+                    st.info(f'''**Sua porcentagem de acertos foi {porcentagem_acertos*100:.0f}%**  
+                            **Você possui uma base sólida**  
+                            Seu conhecimento em finanças está em um bom nível! Você demonstrou uma compreensão sólida de conceitos financeiros essenciais. Continue aprimorando suas habilidades, explorando estratégias de investimento mais avançadas e aprofundando sua compreensão de planejamento financeiro. Com esse nível de conhecimento, você está bem encaminhado para tomar decisões financeiras mais eficazes.''',
+                            icon = "✅")
+                    st.write("Independentemente da faixa em que você se encontra, lembre-se de que a educação financeira é uma jornada contínua. Nunca é tarde para melhorar seus conhecimentos financeiros e tomar decisões mais sólidas em relação ao seu dinheiro. Continue investindo em seu aprendizado e colherá os benefícios ao longo do tempo.")
+                if 0.75 < porcentagem_acertos <= 1:
+                    st.success(f'''**Sua porcentagem de acertos foi {porcentagem_acertos*100:.0f}%**  
+                            **Você tem bastante conhecimento**  
+                            Parabéns! Seu conhecimento em finanças é impressionante e você está bem informado sobre os princípios financeiros. Você provavelmente já alcançou muitos sucessos financeiros em sua vida. Continue se mantendo atualizado e considere compartilhar seus conhecimentos com os outros. Lembre-se de que sempre há mais a aprender, especialmente em um campo tão dinâmico como as finanças.''',
+                            icon = "✨")
+                    st.write("Independentemente da faixa em que você se encontra, lembre-se de que a educação financeira é uma jornada contínua. Nunca é tarde para melhorar seus conhecimentos financeiros e tomar decisões mais sólidas em relação ao seu dinheiro. Continue investindo em seu aprendizado e colherá os benefícios ao longo do tempo.")
 
 # Se quiser ver as variáveis guardadas a cada rerun é só descomentar a próxima linha
 # sst
+
