@@ -6,29 +6,8 @@ img = Image.open('fm-favicon.png')
 st.set_page_config(page_title="FinanceiraMente", page_icon = img)
 
 st.markdown(light, unsafe_allow_html=True)
-st.markdown(
-        """
-        <style>
-        
-            [data-testid="stSidebarNav"] {
-                background-image: url(https://i.imgur.com/4WpPofn_d.webp?maxwidth=240&fidelity=grand);
-                background-repeat: no-repeat;
-                padding-top: 70px;
-                background-position: top;
-               
-            }
-            [data-testid="stSidebarNav"]::before {
-                margin-left: 20px;
-                margin-top: 20px;
-                font-size: 30px;
-                position: relative;
-                top: 80px;
-                
-            }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
+
+
 with st.sidebar:
     # Create a toggle button
     toggle = st.button("Modo :sun_with_face:/ :new_moon_with_face:")

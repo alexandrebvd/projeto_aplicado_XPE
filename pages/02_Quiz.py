@@ -12,8 +12,7 @@ with st.sidebar:
     # Create a toggle button
     toggle = st.button("Modo :sun_with_face:/ :new_moon_with_face:")
     col1, col2, col3 = st.columns(3)
-    with col2:
-        st.image('financeiraMente__1_-removebg-preview.png')
+    
 
 # Use a global variable to store the current theme
 if "theme" not in st.session_state:
