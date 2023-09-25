@@ -69,6 +69,15 @@ dark = '''
     .css-fblp2m {
     color: #ffffffff
     }
+    .st-c0 {
+    color: #717dc6
+    }
+    #MainMenu {
+    visibility: hidden;
+    }
+    footer {
+        visibility: hidden;
+    }
 </style>
 '''
 
@@ -97,6 +106,15 @@ light = '''
                 }
     .css-6qob1r.eczjsme11 {
     color: #0E1117;
+    }
+    .st-c0 {
+    color: #717dc6
+    }
+    #MainMenu {
+    visibility: hidden;
+    }
+    footer {
+        visibility: hidden;
     }
 </style>
 '''
