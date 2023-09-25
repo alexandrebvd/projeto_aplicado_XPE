@@ -53,6 +53,9 @@ dark = '''
     .css-16idsys {
     color: #ffffffff    
     }
+    .css-fblp2m {
+    color: #ffffffff
+    }
 </style>
 '''
 
@@ -64,6 +67,9 @@ light = '''
     }
     h1, span {
     color: #000000;
+    }
+    .css-6qob1r.eczjsme11 {
+    color: #0E1117;
     }
 </style>
 '''
